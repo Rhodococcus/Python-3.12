@@ -52,4 +52,13 @@ def say_myself(name, age, man=True):
 
 say_myself("박응용", 27)
 say_myself("박응선", 27, False)
-        
+
+
+a = 1
+def vartest(a):
+    a = 1
+    a = a + 1
+
+vartest(a)
+print(a)
+
